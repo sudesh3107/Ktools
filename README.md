@@ -10,7 +10,7 @@ Installing Kali tools over Debian Based distros.
 - Kali tools often require **root privileges** - use with caution.
 
 
- **Method 1**: Add Kali Repositories (Most Comprehensive)
+##**Method 1**: Add Kali Repositories (Most Comprehensive)
 
 ### Step 1: Add Kali Repo & Key
 ```bash
@@ -45,14 +45,14 @@ sudo apt-mark hold <package-name>
 ```
 
 
-## **Method 2**: Manual Tool Installation (Safer)
+##**Method 2**: Manual Tool Installation (Safer)
 ```bash
 sudo apt install nmap metasploit-framework wireshark aircrack-ng burpsuite -y
 ```
 
 
 
-## **Method 3**: Docker Container (Safest Option)
+##**Method 3**: Docker Container (Safest Option)
 
 ```bash
 # Install Docker
@@ -67,7 +67,7 @@ docker run -it kalilinux/kali-rolling /bin/bash
 apt update && apt install kali-linux-headless -y
 ```
 
-## **Uninstallation**
+##**Uninstallation**
 
 ```bash
 # Remove Kali tools
