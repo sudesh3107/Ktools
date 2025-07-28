@@ -31,7 +31,7 @@ sudo apt install kali-linux-everything -y
 ```
 
 
-## OR install specific categories:
+### OR install specific categories:
 ```bash
 sudo apt install kali-tools-top10        # Top 10 essential tools
 sudo apt install kali-tools-web          # Web app testing
