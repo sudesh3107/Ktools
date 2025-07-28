@@ -10,7 +10,7 @@ Installing Kali tools over Debian Based distros.
 - Kali tools often require **root privileges** - use with caution.
 
 
-## **Method 1**: Add Kali Repositories (Most Comprehensive)
+ **Method 1**: Add Kali Repositories (Most Comprehensive)
 
 ### Step 1: Add Kali Repo & Key
 ```bash
