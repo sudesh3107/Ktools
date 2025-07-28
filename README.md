@@ -22,55 +22,55 @@ wget -qO - https://archive.kali.org/archive-key.asc | sudo apt-key add -
 
 # Update packages
 sudo apt update
-'''
+```
 
 ### Step 2: Install Tools
-'''bash
+```bash
 # Install ALL tools (10GB+ disk space)
 sudo apt install kali-linux-everything -y
-'''
+```
 
 
 # OR install specific categories:
-'''bash
+```bash
 sudo apt install kali-tools-top10        # Top 10 essential tools
 sudo apt install kali-tools-web          # Web app testing
 sudo apt install kali-tools-wireless     # Wi-Fi hacking
 sudo apt install kali-tools-forensics    # Forensic tools
 
-'''
+```
 ### Step 3: Prevent Conflicts (Recommended)
-'''bash
+```bash
 # Block updates for critical packages
 sudo apt-mark hold <package-name>
-'''
+```
 
 ## Method 2: Manual Tool Installation (Safer)
-'''bash
+```bash
 sudo apt install nmap metasploit-framework wireshark aircrack-ng burpsuite -y
-'''
+```
 
 ## Method 3: Docker Container (Safest Option)
 
-'''bash
+```bash
 # Install Docker
 sudo apt install docker.io -y
 
 # Run Kali container
 docker run -it kalilinux/kali-rolling /bin/bash
-'''
+```
 
 # Inside container:
-'''bash
+```bash
 apt update && apt install kali-linux-headless -y
-'''
+```
 
 #### Uninstallation
 
-'''bash
+```bash
 # Remove Kali tools
 sudo apt remove kali-linux-everything
 
 # Purge residual files
 sudo apt autoremove -y && sudo apt clean
-'''
+```
