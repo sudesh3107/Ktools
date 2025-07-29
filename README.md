@@ -28,7 +28,10 @@ sudo apt update
 # Install ALL tools (10GB+ disk space)
 sudo apt install kali-linux-everything -y
 ```
-
+### OR use kali-tweaks
+```bash
+sudo apt install kali-tweaks
+```
 
 ### OR install specific categories:
 ```bash
@@ -47,7 +50,7 @@ sudo apt-mark hold <package-name>
 
 ## Method 2: Manual Tool Installation (Safer)
 ```bash
-sudo apt install nmap metasploit-framework wireshark aircrack-ng burpsuite -y
+sudo apt install nmap hydra metasploit-framework wireshark aircrack-ng burpsuite -y
 ```
 
 
